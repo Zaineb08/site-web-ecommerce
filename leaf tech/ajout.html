@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="stylesheet" href="style3.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Leaftech</title> 
+
+</head>
+<body>
+    
+        <header>
+            
+            <nav>
+
+                <a href="index.html">
+                    <img src="images\leaf tech logo.PNG" alt="" />
+
+                </a>
+
+                <ul class="right">
+
+
+                    <li><a href="index.html">Acceuil</a></li>
+                    <li><a href="detail.html">Produit</a></li>
+                    <li><a href="ajout.html">Ajouter</a></li>
+                    <li><span><a href="panier.html"> Panier</a></span></li>
+                    <li><input type="checkbox" class="checkbox" id="checkbox"></li>
+                
+                </ul>   
+            </nav>
+        
+        </header>
+
+  
+
+    <section class="nouveau-produit">
+        <div class="container grid">
+            
+                <h1 class="xl">Nouveau produit</h1>
+        
+
+    <div>
+    <form action="">
+        <label for="productName">Nom</label>
+        <input type="text" id="productName" name="productName" placeholder="Nom du produit">
+    
+        
+        <label for="catégorie">Catégorie</label>
+        <select id="catégorie" name="catégorie" >
+
+          <option value=""> - Select - </option>
+          <option value="pc-portable">Pc portable</option>
+          <option value="ecouteurs">Ecouteurs</option>
+          <option value="airpods">Airpods</option>
+          <option value="carte-mémoire">Carte mémoire</option>
+          <option value="casque">Casque</option>
+          <option value="clavier">Clavier</option>
+          <option value="clé-usb">Clé USB</option>
+          <option value="disque-dur">Disque dur</option>
+          <option value="routeur">Routeur</option>
+          <option value="souris">Souris</option>
+
+         
+        </select>
+
+        <label for="Disponibilité">Disponiblité</label>
+        <select id="disponibilité" name="disponibilité">
+            <option value=""> - Select - </option>
+          <option value="en-stock">En stock</option>
+          <option value="épuisé">Epuisé</option>
+         
+        </select>
+        <label for="url">Image</label>
+
+     <input type="url" name="url" id="url" placeholder="https://example.com"
+       pattern="https://.*" size="30"
+       required>
+       <label for="product-description">Description</label>
+      
+        <textarea name="productDescription" id="productDescription"  placeholder="Entrer la description du produit" cols="30" rows="10"></textarea>
+
+        <input type="submit" id="addButton" value="Submit" onclick="addProductTolist()">
+        
+    </form>
+    </div>
+
+         </div>
+    </section>
+
+</body>
+
+<footer id="footer">
+    <div class="container grid">
+       <h2>Nos produits</h2>
+       <ul>
+           <li>Par catégorie</li>
+           <li>Par disponibilité</li>
+       </ul>
+    </div>
+    <div class="container grid">
+       <h2>A propos</h2>
+       <ul>
+           <li>S'abonner</li>
+           <li>Qui sommes nous?</li>
+           <li>Nous contacter</li>
+       </ul>
+    </div>  
+   </footer>
+</html>

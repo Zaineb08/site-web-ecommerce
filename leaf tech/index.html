@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css" />
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Leaftech</title> 
+
+</head>
+
+<body>
+    <div class="home">
+        <header>
+            
+            <nav>
+
+                <a href="index.html">
+                    <img src="images\leaf tech logo.PNG" alt="" />
+
+                </a>
+
+              
+                <ul class="right">
+
+
+                    <li><a href="index.html">Acceuil</a></li>
+                    <li><a href="detail.html">Produit</a></li>
+                    <li><a href="ajout.html">Ajouter</a></li>
+                    <li><span><a href="panier.html"> Panier</a></span></li>
+                    <li>
+                        <input type="checkbox" class="checkbox" id="checkbox">
+                      <label for="checkbox" class="label">
+                      
+                        <div class='ball'>
+                      </label>
+                    </li>
+                
+                </ul>
+              
+
+             
+                          
+
+                </ul>
+               
+            </nav>
+
+        </header>
+
+
+        <section class="presentation " id="section1">
+
+
+            <div class="product-presentation">
+
+                <h1> Bienvenue chez <span>Leaftech</span></h1>
+                <p>Découvrez notre gamme de produits informatiques d'une qualité reconnue à l'échelle mondiale. </p>
+                <a href="#section2"> <span class="button1"> Commander</span></a>
+
+            </div>
+            <div class="image-presentation">
+                <img src="images\photo description.png.jpg" alt="">
+
+            </div>
+
+        </section>
+
+        <section  id="section2">
+            <nav role="navigation" class="primary-navigation">
+          
+                <ul>
+                 <li><a >Catégories &dtrif;</a>
+                    <ul id="list"  class="dropdown"  >
+                        <li><a href="#airpods" id="a">Airpods </a></li>
+                        <li><a href="#carte" id="b">Carte mémoire</a></li>
+                        <li><a href="#casque" id="c">Casque</a></li>
+                        <li><a href="#clavier">Clavier</a></li>
+                        <li><a href="#usb">Clé USB</a></li>
+                        <li><a href="#disque">Disque dur</a></li>
+                        <li><a href="#ecouteurs">Ecouteurs</a></li>
+                        <li><a href="#pc">PC portable</a></li>
+                        <li><a href="#routeur">Routeur</a></li>
+                        <li><a href="#souris">Souris</a></li>
+                    
+                    </ul>
+                  </li>
+                  <li><a >Disponibilité &dtrif;</a>
+                    <ul class="dropdown">
+                      <li><a href="#ecouteurs">En stock</a></li>
+                      <li><a href="#pc">Stock limité</a></li>
+                     
+                      
+                    </ul>
+                  </li>
+                 
+                    
+                       
+                  
+                </ul>
+              </nav>
+          
+            
+                 
+               
+               
+             
+        </section>
+
+        <section class="products" id="products">
+            <p id="demo"></p>
+            <div class="productcont">
+            <div id="alerts"></div>
+            <div class="box-container">
+
+                <div class="item" id="ecouteurs">
+
+                  <a href="detail.html"><img src="images\ecouteur.jpg" alt="" ></a> 
+      
+                    <h3 class="productname">Ecouteurs</h3>
+
+                    <span class="price">$99.99</span>
+                    <a  class="btn">Ajouter au panier</a>
+                </div>
+
+                <div class="item" id="souris">
+
+                    <a href="detail.html"><img src="images\Souris.jpg" alt=""></a>
+                    <h3 class="productname">Souris</h3>
+
+                    <span class="price">$80.99</span>
+                    <a  class="btn">Ajouter au panier</a>
+          
+                </div>
+
+                <div class="item" id="clavier">
+
+                    <a href="detail.html"><img src="images\Clavier.jpg" alt=""></a>
+                    <h3 class="productname">Clavier</h3>
+
+                    <span class="price">$150.99</span>
+                    <a  class="btn">Ajouter au panier</a>
+                </div>
+
+                <div class="item" id="pc">
+
+                    <a href="detail.html"><img src="images\Pc portable.jpg" alt=""></a>
+                    <h3 class="productname">PC portable</h3>
+
+                    <span class="price">$1399.99</span>
+                    <a  class="btn">Ajouter au panier</a>
+                </div>
+
+                <div class="item" id="casque">
+
+                    <a href="detail.html"> <img src="images\Casque.jpg" alt=""></a>
+                    <h3 class="productname">Casque</h3>
+
+                    <span class="price">$150.99</span>
+                    <a  class="btn">Ajouter au panier</a>
+                </div>
+
+                <div class="item" id="airpods">
+
+                    <a href="detail.html">  <img src="images\Airpods.jpg" alt=""></a>
+                    <h3 class="productname">Airpods</h3>
+
+                    <span class="price">$400.99</span>
+                    <a  class="btn">Ajouter au panier</a>
+                </div>
+                <div class="item" id="disque">
+
+                    <a href="detail.html"> <img src="images\Disque dur.jpg" alt=""></a>
+                    <h3 class="productname">Disque dur</h3>
+
+                    <span class="price">$599.99</span>
+                    <a class="btn">Ajouter au panier</a>
+                </div>
+                <div class="item" id="routeur">
+
+                    <a href="detail.html"><img src="images\Routeur.jpeg" alt=""></a>
+                    <h3 class="productname">Routeur</h3>
+
+                    <span class="price">$299.99</span>
+                    <a  class="btn">Ajouter au panier</a>
+                </div>
+                <div class="item" id="usb">
+
+                    <a href="detail.html">  <img src="images\Clé USB.jpg" alt=""></a>
+                    <h3 class="productname">Clé USB</h3>
+
+                    <span class="price">$78.99</span>
+                    <a  class="btn">Ajouter au panier</a>
+                </div>
+                <div class="item" id="carte">
+
+                    <a href="detail.html">  <img src="images\Carte mémoire.jpg" alt=""></a>
+                    <h3 class="productname">Carte mémoire</h3>
+
+                    <span class="price">$60.99</span>
+                    <a  class="btn">Ajouter au panier</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="cart-container">
+            <h2>Cart</h2>
+            <table>
+              <thead>
+                <tr>
+                <th><strong>Product</strong></th>
+                <th><strong>Price</strong></th>
+              </tr>
+              </thead>
+              <tbody id="carttable">
+              </tbody>
+            </table>
+            <hr>
+            <table id="carttotals">
+              <tr>
+                <td><strong>Items</strong></td>
+                <td><strong>Total</strong></td>
+              </tr>
+              <tr>
+                <td>x <span id="itemsquantity">0</span></td>
+               
+                <td>$<span id="total">0</span></td>
+              </tr></table>
+  
+              
+            <div class="cart-buttons">  
+              <button id="emptycart" onclick="alertVider()">Vider panier</button>
+             
+            </div>
+          </div>
+  </div>
+        </section>
+        
+
+        <script src="./js/script.js" type="module"></script>
+        <script>
+            function alertVider() {
+              alert("le panier a été vidé avec succés");
+            }
+            </script>
+        
+
+    </body>
+
+<footer class="footer">
+    <div class="flex-container">
+        <h2>Nos produits</h2>
+        <ul>
+            <li><a href="">Par catégorie</a></li>
+            <li><a href="">Par disponibilité</a></li>
+        </ul>
+    </div>
+    <div class="flex-container">
+        <h2>A propos</h2>
+        <ul>
+            <li><a href="">S'abonner</a></li>
+            <li><a href="index.html">Qui sommes nous?</a></li>
+            <li><a href="">Nous contacter</a></li>
+        </ul>
+    </div>
+
+
+
+</footer>
+
+</html>
